@@ -48,7 +48,7 @@ Reconstruct full conversations between hosts — essential for incident investig
 
 
 
-Prerequisites
+## Prerequisites
 Wireshark installed (see setup below)
 Basic familiarity with the command line
 A network interface (Wi-Fi or Ethernet)
