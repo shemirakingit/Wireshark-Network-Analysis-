@@ -63,7 +63,7 @@ sudo usermod -aG wireshark $USER
 wireshark --version
 
 
-Exercises
+## Exercises
 
 Exercise A — Capture a DNS Lookup
 Trigger a DNS query manually using nslookup, then inspect the query and response packets in Wireshark.
