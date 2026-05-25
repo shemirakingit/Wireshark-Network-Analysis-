@@ -19,18 +19,31 @@ Network Engineer · SOC Analyst · Cloud Security Engineer · Incident Responder
 What This Lab Covers :
 
 Skill
+
 Real-World Application
+
 Capture live network traffic
+
 Foundational skill — you can't analyze what you can't see
+
 Apply display filters
+
 Filter millions of packets to find the 10 that matter
+
 Read TCP handshakes
+
 Distinguish successful connections from failures instantly
+
 Identify DNS queries and responses
+
 DNS is involved in virtually every network action
+
 Spot cleartext credentials in HTTP
+
 Hands-on demonstration of why HTTPS matters
+
 Follow TCP streams
+
 Reconstruct full conversations between hosts — essential for incident investigation
 
 
