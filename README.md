@@ -79,7 +79,7 @@ wireshark --version
 
 ## Exercises
 
-Exercise A — Capture a DNS Lookup
+**Exercise A** — Capture a DNS Lookup
 Trigger a DNS query manually using nslookup, then inspect the query and response packets in Wireshark.
 
 nslookup google.com
@@ -89,7 +89,7 @@ What to look for: In the DNS response packet, expand Domain Name System (respons
 Key concept: DNS queries happen before every website visit, API call, and email. Unexpected DNS queries to unusual domains are often the first sign of malware phoning home.
 
 
-Exercise B — Watch the TCP Three-Way Handshake
+**Exercise B** — Watch the TCP Three-Way Handshake
 Navigate to http://example.com and capture the three packets that establish the connection.
 
 Packet
@@ -111,7 +111,7 @@ Filter to use: tcp and ip.addr == <example.com IP>
 Key concept: A SYN with no SYN-ACK means the server is unreachable or refused the connection. A RST packet means the connection was forcibly closed.
 
 
-Exercise C — Spot Cleartext Credentials (HTTP)
+**Exercise C** — Spot Cleartext Credentials (HTTP)
 Submit a test login form over HTTP (not HTTPS) and capture the POST request.
 
 Filter to use: http.request.method == POST
@@ -123,7 +123,7 @@ Note: This exercise is for educational purposes only. Only capture traffic on ne
 Key concept: Without TLS, anyone on the network path can read credentials exactly as typed. This is the practical reason HTTPS became the standard.
 
 
-Exercise D — Follow a Full TCP Stream
+**Exercise D** — Follow a Full TCP Stream
 Capture HTTP traffic, right-click any HTTP packet, and select Follow → TCP Stream.
 
 Red text = your browser's request
