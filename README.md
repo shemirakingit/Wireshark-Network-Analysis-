@@ -16,7 +16,8 @@ Network Engineer · SOC Analyst · Cloud Security Engineer · Incident Responder
 
 
 
-What This Lab Covers
+What This Lab Covers :
+
 Skill
 Real-World Application
 Capture live network traffic
