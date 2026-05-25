@@ -174,14 +174,14 @@ Portfolio
 This repo includes three saved captures demonstrating:
 
 
-Each .pcapng file can be opened in Wireshark to reproduce the analysis.
-DNS lookup — query and response for google.com
+TCP handshake — three-way handshake with example.com
 <img width="2240" height="1260" alt="Screenshot 2026-05-24 at 7 33 18 PM" src="https://github.com/user-attachments/assets/03fe3aa7-f4d8-4e98-afb3-ec105609354c" />
 
 TCP stream follow — full reconstructed HTTP conversation
 <img width="2240" height="1260" alt="Screenshot 2026-05-24 at 7 34 12 PM" src="https://github.com/user-attachments/assets/30eeeeca-3f80-49fe-9316-1abc20e50f3b" />
 
-TCP handshake — three-way handshake with example.com
+Each .pcapng file can be opened in Wireshark to reproduce the analysis.
+DNS lookup — query and response for google.com
 <img width="2240" height="1260" alt="Screenshot 2026-05-24 at 7 35 56 PM" src="https://github.com/user-attachments/assets/15d7fe57-1d81-40a7-870a-d8a736ce741d" />
 
 
