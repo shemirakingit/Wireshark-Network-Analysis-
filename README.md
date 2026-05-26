@@ -1,6 +1,9 @@
 # Wireshark-Network-Analysis-
 Wireshark hands-on lab covering the core skills of packet analysis — live traffic capture, TCP handshakes, DNS tracing, cleartext credential exposure in HTTP, and TCP stream reconstruction. No simulations. Real captures on live interfaces.
 
+📹 Check out this walkthrough guide and share your feedback here: 
+https://www.loom.com/share/cf85962432ab404fb95ab0bf1edd7824
+
 Overview
 Wireshark (free & open source)
 Local machine or Azure VM
